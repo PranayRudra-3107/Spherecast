@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(/Users/pranayrudra/Projects/Spherecast/.venv/bin/pip install:*)"
+    ]
+  }
+}
