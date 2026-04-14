@@ -24,9 +24,16 @@ pip install -r requirements.txt
 ```
 
 ### 2. Set your HuggingFace API key
+
+Copy the example env file and add your token:
 ```bash
-export HF_TOKEN=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
+cp .env.example .env
+# Then edit .env and set HF_TOKEN=hf_your_token_here
 ```
+
+Get a free token at https://huggingface.co/settings/tokens
+
+> **Never commit `.env` to git.** It is already in `.gitignore`.
 
 ### 3. Seed demo data and verify
 ```bash

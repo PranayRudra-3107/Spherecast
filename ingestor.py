@@ -11,6 +11,12 @@ import os
 from typing import Optional
 from huggingface_hub import InferenceClient
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from knowledge_store import (
     upsert_material,
     insert_specs,
